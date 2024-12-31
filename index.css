@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9e9e9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #00000052;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0;
+    
+}
+
+.carrinho {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.carrinho i {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+/* Título da seção */
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #555;
+}
+
+/* Container das pizzas */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilização de cada pizza */
+.pizza {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pizza:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagem da pizza */
+.pizza img {
+    max-width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Nome da pizza */
+.pizza h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #444;
+}
+
+/* Preço e descrição */
+.pizza p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Botão do carrinho */
+.btn-carrinho {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 16px;
+    margin: 10px 0 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-carrinho:hover {
+    background-color: #e55347;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
